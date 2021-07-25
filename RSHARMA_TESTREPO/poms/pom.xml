@@ -13,6 +13,7 @@
     <module>code/beans</module>
     <module>jobs/process/testjob3_0.1</module>
     <module>jobs/process/gcp_testjob_0.1</module>
+    <module>jobs/process/demo/ps_employment_sf_to_edm_copy_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
