@@ -14,6 +14,12 @@
     <module>jobs/process/testjob3_0.1</module>
     <module>jobs/process/gcp_testjob_0.1</module>
     <module>jobs/process/demo/ps_employment_sf_to_edm_copy_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_dm_030_err_log_catcher_0.1</module>
+    <module>jobs/process/SCB_DM/SCB_SF_DATA_MASKING/National_ID/jb_scb_dm_000_master_national_id_0.1</module>
+    <module>jobs/process/SCB_DM/SCB_SF_DATA_MASKING/National_ID/jb_scb_dm_010_national_id_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_dm_020_run_log_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_dm_010_dm_contextload_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_dm_040_error_log_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
