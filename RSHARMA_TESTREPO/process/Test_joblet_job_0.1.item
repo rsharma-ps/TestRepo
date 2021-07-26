@@ -3,18 +3,21 @@
     <contextParameter comment="" name="Chandan" prompt="Chandan?" promptNeeded="false" repositoryContextId="_vv54kOXtEeuk_YY89lAlqQ" type="id_String" value=""/>
     <contextParameter comment="" name="CONTEXT_FILE_WITH_PATH" prompt="CONTEXT_FILE_WITH_PATH?" promptNeeded="false" repositoryContextId="_vv54kOXtEeuk_YY89lAlqQ" type="id_String" value="C:/Users/rsharma/Documents/context/Context_Load_R3.txt"/>
     <contextParameter comment="" name="Rajat_sharma" prompt="Rajat_sharma?" promptNeeded="false" repositoryContextId="_vv54kOXtEeuk_YY89lAlqQ" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_ERRORLOG_FILE_NAME" prompt="SCB_DM_SF_ERRORLOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_ERRORLOG_FILE_NAME_PREFIX" prompt="SCB_DM_SF_ERRORLOG_FILE_NAME_PREFIX?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_ERRORLOG_FILE_PATH" prompt="SCB_DM_SF_ERRORLOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_FILE_SIZE" prompt="SCB_DM_SF_FILE_SIZE?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_Long" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_MAX_FILE_NUM" prompt="SCB_DM_SF_MAX_FILE_NUM?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_Integer" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_OBJECT_ID" prompt="SCB_DM_SF_OBJECT_ID?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_OBJECT_TYPE" prompt="SCB_DM_SF_OBJECT_TYPE?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_ENVIRONMENT" prompt="SCB_DM_SF_ENVIRONMENT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_JOB_END_TIMESTAMP" prompt="SCB_DM_SF_JOB_END_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_JOB_START_TIMESTAMP" prompt="SCB_DM_SF_JOB_START_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_JOB_STATUS_FLAG" prompt="SCB_DM_SF_JOB_STATUS_FLAG?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_REJECT_RECORD_COUNT" prompt="SCB_DM_SF_REJECT_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_NAME" prompt="SCB_DM_SF_RUN_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_PATH" prompt="SCB_DM_SF_RUN_LOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_PREFIX" prompt="SCB_DM_SF_RUN_LOG_FILE_PREFIX?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_ENVIRONMENT" prompt="SCB_DM_SF_ENVIRONMENT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_SOURCE_RECORD_COUNT" prompt="SCB_DM_SF_SOURCE_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_TARGET_RECORD_COUNT" prompt="SCB_DM_SF_TARGET_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
   </context>
@@ -60,7 +63,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/rxHKPp7Kj3O/chpHP6mFu10t2vCBVK5cD7ChESe"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Wn98tIJRZslmszlaujYB+nSg3Shx0+BdazL8P9du"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -95,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ZQvD79r96dJAUpRiQaK9VMktb2AdOZfhGMoGgxHM"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vVroeJ+BO5Y3VDPFZDQHVRwd3ekHHRGxO6pqUaCK"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -215,13 +218,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_09e16ff9-9ea1-41a6-bfa5-7ead3022f462"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>68D7/ymXB1lp1EIS0qEzkgZVUX63MastjLr9B6g+T59fcG+dJbCOpCnyWN1Cw4aXQ24lJtdgSPhw
-dC+Xw3VfzQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2b1206d3-ea40-47ac-bceb-58e704816909"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gSt/hQGbYPxvvU74JvGcqTMRMJYUymd5awhpmZSz1zbLW9wdMXERPys3DPTxGzretris36ssDNRi
-mn6ZiL6BTA==</DigestValue></Reference></SignedInfo><SignatureValue>DitMhileVfJQLtfVKKxAo25TdLt9RF3Zj49tjY5hkG7Qtxe/ycJpDUMmxNTUlIZg73Av2sVtXGZv
-lSpn629CDdBW3rD2f3xfwkZMiNzfTiQFfjN3fzfOUIAmDHpnzWbvQu5iabu8QVyWeLj2PNGO6XEY
-FnnHn9X8tioAexHwR8FKT+IXcWj5915vTbihnBz16u5z25SFWQ3vh4dg+Ah5FmtyjQJS9I1PuAMJ
-4c0RKLtpnFIjfZltSWHx/3BMUvsGxRPnsDlez9ojNQ/NN/abcVVqN3x2SFZcxkImFDTv6TfkXZVD
-fj4BN5j9iHpTXEY3fvp9d3EB8lCPHVGZ3RGpAg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_65cf3c3a-df57-451a-a912-fb339b28cbf9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v0Z9Yhozj8kjoQB+ePF+PAPEq+PSNXwwjz19Kqf6KcjltVbyIBmfmXU5gy3BXsGCSHzO/ZzhG64g
+8EmXLDaRcA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f61c2984-84bc-4c0c-8a96-0897dadf1475"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CgqC39Au/DvOBlQCplbPu8RttmCcCQ9te6FJjHKNbHHQSkzZVMQeXeLIM41C49EgKw7Oc3VVNFwk
+3KbeMMwv7A==</DigestValue></Reference></SignedInfo><SignatureValue>PEkYvcT0g0YIFS1v+Vo3Q3ks/3HS2z/s4RDqNSE/KLgCb8hQ+0Lzpv/vLHhuupy1plY+Xanov+om
+PM5gnCMCJuyoAXK0yrkjGfaaQ/UXUjlNfc4WoRFGnHMCnFckkyoqHLxet6rHj6CwDNLxTgFvGLEG
+w4L+SXrovkpG9LynRHqgV1tq+05HRwHFbumPJ0bRs4ZrDloT6UY+wCVI4pJ5mESekZtp/7b81W/Y
+Lpqkt1ChmaE/rhcUhkBs+FXmaxxIrfy/72Dzwc4/jXMglRRYh2/AjtSr/Mk+FZBcUVuR0Rwziurc
+BUo9lbc8qVEQ+/vPEoBjbIJOGUMVxS3L8/2MBQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -243,4 +246,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2b1206d3-ea40-47ac-bceb-58e704816909" Target="#_09e16ff9-9ea1-41a6-bfa5-7ead3022f462"><Timestamp>2021-07-26 10:08:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f61c2984-84bc-4c0c-8a96-0897dadf1475" Target="#_65cf3c3a-df57-451a-a912-fb339b28cbf9"><Timestamp>2021-07-26 10:09:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
