@@ -170,6 +170,12 @@
     </dependency>
     <dependency>
       <groupId>org.example.rsharma_testrepo.joblet</groupId>
+      <artifactId>jlet_scb_dm_040_error_log</artifactId>
+      <version>0.1.0</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.example.rsharma_testrepo.joblet</groupId>
       <artifactId>jlet_scb_dm_030_err_log_catcher</artifactId>
       <version>0.1.0</version>
       <type>pom</type>
