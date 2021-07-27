@@ -18,6 +18,20 @@
     <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_PREFIX" prompt="SCB_DM_SF_RUN_LOG_FILE_PREFIX?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_SOURCE_RECORD_COUNT" prompt="SCB_DM_SF_SOURCE_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
     <contextParameter comment="" name="SCB_DM_SF_TARGET_RECORD_COUNT" prompt="SCB_DM_SF_TARGET_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_DATA_API_URL" prompt="SCB_DM_SF_DATA_API_URL?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_LOOP_NUM" prompt="SCB_DM_SF_LOOP_NUM?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_REJECT_DATA_FILEPATH" prompt="SCB_DM_SF_REJECT_DATA_FILEPATH?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_ODATA_API_ENTITY" prompt="SCB_DM_SF_ODATA_API_ENTITY?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_ODATA_URL" prompt="SCB_DM_SF_ODATA_URL?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_PASSWORD" prompt="SCB_DM_SF_PASSWORD?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Password" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_USERNAME" prompt="SCB_DM_SF_USERNAME?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_TGT_DATA_FILEPATH" prompt="SCB_DM_SF_TGT_DATA_FILEPATH?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_PROXY_IP" prompt="SCB_DM_SF_PROXY_IP?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_PROXY_PORT" prompt="SCB_DM_SF_PROXY_PORT?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_REJECTED_RECORDS_RERUN_ENV" prompt="SCB_DM_SF_REJECTED_RECORDS_RERUN_ENV?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_DM_SF_RUN_TYPE" prompt="SCB_DM_SF_RUN_TYPE?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+    <contextParameter comment="" name="config_paramfile" prompt="config_paramfile?" promptNeeded="false" repositoryContextId="_b0EioNTeEeuRrqYmubmn_g" type="id_String" value="/apps/runtime/DATAMASKING/CONTEXT/parameterFile.txt"/>
+    <contextParameter comment="" name="sectionName" prompt="sectionName?" promptNeeded="false" repositoryContextId="_b0EioNTeEeuRrqYmubmn_g" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -61,7 +75,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:50s+ZYW0ZC4E4UC2sTQFK9CbpVD5Yz2VbTlHTwyq"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:LzTK7lPKKU4swfdduIavuRa5SsMV6/emJcRDrqAG"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -96,7 +110,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NijHlIiebkqs+Krtuak7mgQhd1kbSRitKz15P/Dn"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:iT/m2qbWkbjio7kt4+X1bp/TYSXI2/uPDZB1vRIB"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -241,7 +255,7 @@
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
     <elementParameter field="TEXT" name="LABEL" value="Output"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -420,6 +434,20 @@
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
   </node>
+  <node componentName="jlet_scb_dm_030_err_log_catcher" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="jlet_scb_dm_030_err_log_catcher_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="jlet_scb_dm_030_err_log_catcher"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -493,13 +521,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_58d8388b-7742-4f43-a207-f9a3645afe1a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vt6lXBTSULJFc7fSzQIV/88FAy9Ov6Q3brV6LeksxoVoxsDwf128KFUzRti56tpE6TNON2pw9r7V
-3PFbY+tqxg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_412c537a-42ec-4131-8d32-d945af9e39bb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AQdg399EqyW0bQQYuiS8A0R0TkkVTG2eCzHJuwAt25+yhoeDVHI+GHy3SHyXKXpietolrRFAPLbc
-7hI6SLbnDA==</DigestValue></Reference></SignedInfo><SignatureValue>b4k76+DR4+3NlMwxVhITrk1PhjalSDV72dAhYOtL5qoTFi132SmCiYgYlo2YgbiJhwx4XXXOo3wV
-+3yEJgZzsRknAaMuP1No+SoK2mhcpY5hFzy6x3VbRWfNxGqvV0qAsHJIxw5UDkYGucZo29So5/4B
-bQPzdu7rjPW7x1/V60ngLH/YpV6gHnwhQKCaVOqWzCVybgVTil3w630v9i20lTM1PFXRQymvGIJj
-SBKz+LRPY6oBIr0WqiWhfcDsv1e86YVhJaxu3wgKHiFxAtAl+keSisjnAuyKagITIvybeClfzxE9
-7CQpnyGAzS/tk8JrQl2EOOJnap5JFlZCDzCZRQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="jlet_scb_dm_030_err_log_catcher_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ef688ce8-e951-4d2a-b9f9-3479ec8ad58e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>asz4x1AUwTxhHubcw3FJuinsraS1yZknJK0YY9R636QN2tKvSsLucOel0Njslpx9b1iIddtOukWr
+GhPVPNCuGg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_af59ed01-cc8c-4835-be01-88d6740ae70e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ikst164d1H9CmYZfAiPukGdba+Uy4fbT7Qw2OMDrR+GFS7DP/M2jtPKjsb7en40FFBVJYjENZhSA
+PuEfkoUfkw==</DigestValue></Reference></SignedInfo><SignatureValue>LGom+JsA+cjCr3/oHK7JYT4l660gUFt8vHcMTe+zM79Lya+u2GMFZ2MzGP8C5F9r8DRtR90q9Jao
+HecYn5m1wUOmoH43jbhBLu5XFgNbcNojRWykzH4oi05faz/bTkH5o03HfW3SSUSPOvO74WdVHSPm
+y+cYsT+iqwbnjFLkzWn+rBn8PHHtRrUCaOzPEEbiD8qxYDqcnyGqcI0poVF1trnRg/K1K9vwoC5L
+eWeEDqeb0jh+jKGiwA9Mg6ZVzCXTjZvG+Sp15KKWswvjIxfHp7sOop+AIwtPVYxlS/hQDHjrQz0n
+5Y1yeQf+I2wxi+J0DBZoZO2e55z21jw9i+mdWw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -521,4 +554,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_412c537a-42ec-4131-8d32-d945af9e39bb" Target="#_58d8388b-7742-4f43-a207-f9a3645afe1a"><Timestamp>2021-07-27 09:09:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_af59ed01-cc8c-4835-be01-88d6740ae70e" Target="#_ef688ce8-e951-4d2a-b9f9-3479ec8ad58e"><Timestamp>2021-07-27 11:43:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
