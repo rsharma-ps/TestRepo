@@ -24,6 +24,7 @@
     <module>jobs/joblets/scb_context_load_0.1</module>
     <module>jobs/process/test_joblet_job_0.1</module>
     <module>jobs/process/scb_bp_0.1</module>
+    <module>jobs/process/SCB_BP/rs_scb_sj_rl_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
