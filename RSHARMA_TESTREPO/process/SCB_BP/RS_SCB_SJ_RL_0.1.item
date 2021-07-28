@@ -75,7 +75,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:GjJaeqhnWjYWuq+Tu8YGHCKRqJUxsMAUDGIU6ean"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:FTKeIMd+o0Dl8bpJRo/k2U+SphxBsZKW0OPvqCzi"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -110,7 +110,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:BG/7E0TgFVXE7Dj6pJioJ4j9Wu6Ik8obYAVbeXrL"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FZUppkI23bAhxriJNyutaQNdFM+pCP+NEu+xAP0U"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -437,7 +437,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;############################################Core Job Started Running############################################&quot;);&#10;&#10;//Compulsory Context Variable to be set//&#10;//############################################################### Run Log ##########################################################&#10;&#10;context.SCB_DM_SF_JOB_START_TIMESTAMP=TalendDate.getDate(&quot;dd-MM-yyyy hh:mm:ss&quot;);&#10;context.SCB_DM_SF_JOB_END_TIMESTAMP=&quot;&quot;;&#10;context.SCB_DM_SF_JOB_STATUS_FLAG=&quot;STARTED&quot;;&#10;context.SCB_DM_SF_SOURCE_RECORD_COUNT=0;&#10;context.SCB_DM_SF_TARGET_RECORD_COUNT=0;&#10;context.SCB_DM_SF_REJECT_RECORD_COUNT=0;&#10;context.SCB_DM_SF_ENVIRONMENT=&quot;Sample env&quot;;&#10;&#10;&#10;//################################################################ Prints ##########################################################&#10;&#10;&#10;System.out.println(&quot;STATUS IS &quot;+context.SCB_DM_SF_JOB_STATUS_FLAG);&#10;System.out.println(&quot;SF ENVIRONMENT =&quot;+context.SCB_DM_SF_ENVIRONMENT);&#10;&#10;/// Error logs&#10;context.SCB_DM_SF_OBJECT_TYPE=&quot;NA&quot;;&#10;context.SCB_DM_SF_OBJECT_ID=&quot;NA&quot;;&#10;&#10;//###################################################################################################################################&#10;&#10;//Temp Variables set below to be removed when job development is completed//"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;############################################Core Job Started Running############################################&quot;);&#10;&#10;//Compulsory Context Variable to be set//&#10;//############################################################### Run Log ##########################################################&#10;&#10;context.SCB_DM_SF_JOB_START_TIMESTAMP=TalendDate.getDate(&quot;dd-MM-yyyy hh:mm:ss&quot;);&#10;context.SCB_DM_SF_JOB_END_TIMESTAMP=&quot;&quot;;&#10;context.SCB_DM_SF_JOB_STATUS_FLAG=&quot;STARTED&quot;;&#10;context.SCB_DM_SF_SOURCE_RECORD_COUNT=0;&#10;context.SCB_DM_SF_TARGET_RECORD_COUNT=0;&#10;context.SCB_DM_SF_REJECT_RECORD_COUNT=0;&#10;context.SCB_DM_SF_ENVIRONMENT=&quot;Sample env&quot;;&#10;&#10;&#10;//################################################################ Prints ##########################################################&#10;&#10;&#10;System.out.println(&quot;STATUS IS &quot;+context.SCB_DM_SF_JOB_STATUS_FLAG);&#10;System.out.println(&quot;SF ENVIRONMENT =&quot;+context.SCB_DM_SF_ENVIRONMENT);&#10;&#10;/// Error logs&#10;context.SCB_DM_SF_OBJECT_TYPE=&quot;NA&quot;;&#10;context.SCB_DM_SF_OBJECT_ID=&quot;NA&quot;;&#10;&#10;//###################################################################################################################################&#10;//global vars&#10;globalMap.put(&quot;return_Code&quot;, 0);&#10;&#10;//Temp Variables set below to be removed when job development is completed//&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
@@ -448,7 +448,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.SCB_DM_SF_JOB_STATUS_FLAG=&quot;END&quot;;&#10;context.SCB_DM_SF_SOURCE_RECORD_COUNT=((Integer)globalMap.get(&quot;tRowGenerator_1_NB_LINE&quot;));&#10;context.SCB_DM_SF_TARGET_RECORD_COUNT=((Integer)globalMap.get(&quot;tFileOutputDelimited_1_NB_LINE&quot;));&#10;context.SCB_DM_SF_ENVIRONMENT=context.SCB_DM_SF_ENVIRONMENT;&#10;context.SCB_DM_SF_JOB_END_TIMESTAMP=TalendDate.getDate(&quot;dd-MM-yyyy hh:mm:ss&quot;);&#10;&#10;System.out.println(&quot;STATUS IS &quot;+context.SCB_DM_SF_JOB_STATUS_FLAG);&#10;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.SCB_DM_SF_JOB_STATUS_FLAG=&quot;END&quot;;&#10;context.SCB_DM_SF_SOURCE_RECORD_COUNT=((Integer)globalMap.get(&quot;tRowGenerator_1_NB_LINE&quot;));&#10;context.SCB_DM_SF_TARGET_RECORD_COUNT=((Integer)globalMap.get(&quot;tFileOutputDelimited_1_NB_LINE&quot;));&#10;context.SCB_DM_SF_ENVIRONMENT=context.SCB_DM_SF_ENVIRONMENT;&#10;context.SCB_DM_SF_JOB_END_TIMESTAMP=TalendDate.getDate(&quot;dd-MM-yyyy hh:mm:ss&quot;);&#10;&#10;System.out.println(&quot;STATUS IS &quot;+context.SCB_DM_SF_JOB_STATUS_FLAG);&#10;//global vars&#10;System.out.println(&quot;Job Code : &quot;+ globalMap.get(&quot;return_Code&quot;);&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
@@ -565,13 +565,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e871c6b0-c67d-4e6e-ab1f-2bc6a88b9dad"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PNTLY/4Il6G41NcZvNRZDCkFSnmyTrJvl9ipDIT8vuYCLf/AijTwvWhQj2Dfkd14k0zGJMvOqBtV
-eansfQgxPw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a235fa78-fbaa-423c-bb12-0d4995087f82"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Md/Q2VZf2XTGGBFCRjQ05gaYkXfmaRCEd8zdYueIqM5bc+sQjt9jTljk5S84rCaq+LlnlF/qmqpj
-B3vKUR1p2g==</DigestValue></Reference></SignedInfo><SignatureValue>MDkyZhsu9i8143mv2sWsXU4qA/p5/nigS0pWtw6VjoSQLrgrNnCerAvWu3QTcHeW5PPC4sFAQOh4
-zjij8mN4S+VaYa0xvCQuvNH3sBvl/rSnBnY8Px64QAACBaRPnzNtdSeKKWt17jgZWq+iUIIe+QuU
-VxhrcVffyOHlGD+5150PfQfzmgzpBw/arDXwg1zjop6cHzcmB2gendPHMz+/lGZbOVzIJGDXEPbM
-TepcijYPq+ZOWNvWAKCNz2sysirW9fQip9dDkOlChhiOtFl/hvE1kAIsdcEr/2jWdeKPx3HFcaaf
-H3YT+Sp2LFyu4EF/dSKdAeV66PpBUys0mlNqfQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ba0daafa-0124-4361-93fe-945e4f95dc97"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XbjDWnd4L6l2HmSQXJwe0x9dHCltodZryuX0VZju1osJXwmqkxQYTZISVtPQLqI1/ynMXDApUwry
+p7TBMMjIBw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3b02ce79-6012-4c5e-8dcd-d8fdd7a7d4b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ke3W7E5f2I8kvYtc20IeGUVU4r3IS/vexGr8Om09IVkRFW9tCVIk010v5Mz0m+f+QhJivjZgo/J9
+gmFg/L1V0w==</DigestValue></Reference></SignedInfo><SignatureValue>hIi/kDXIi+4zkt1n0qcAsqxm/+2hDvaZLQLFZi8ZzrU3YH+VDHZI4VIEX9jlXffLHB/7Xwp5tWVu
+EuKKs0PPIV15Wxa/35jpplQ5S3ETXxCns2ZyYX6m4tBsnxAOlzQnZu1JeD2bQKXdD1+5urwoZu2U
+4ujHH1/N/8oEwhHc3XEoh/FgClijIzc24HDVxpnIV+zxJAROsA0gJJm85Dn0FtmdArDEyZPnmEfV
+qi14/cpK5uaiIm4KTwebi9x9rX+sfhv/9Ag43OAH7lzx3tj5Xw6/mlFibiRsWurkQkrgwwj+Fgpz
+PdkKeXltbGjOAVV9pvfzSA8GizZHqZxEahmTlw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -593,4 +593,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a235fa78-fbaa-423c-bb12-0d4995087f82" Target="#_e871c6b0-c67d-4e6e-ab1f-2bc6a88b9dad"><Timestamp>2021-07-28 05:16:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3b02ce79-6012-4c5e-8dcd-d8fdd7a7d4b6" Target="#_ba0daafa-0124-4361-93fe-945e4f95dc97"><Timestamp>2021-07-28 06:09:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
