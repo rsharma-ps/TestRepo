@@ -29,6 +29,7 @@
     <module>jobs/joblets/SCB_DM/jlet_scb_dm_030_err_log_catcher_copy_0.1</module>
     <module>jobs/joblets/SCB_DM/jlet_scb_err_log_catcher_0.1</module>
     <module>jobs/process/scb_samp_job_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_dm_040_error_log_copy_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
