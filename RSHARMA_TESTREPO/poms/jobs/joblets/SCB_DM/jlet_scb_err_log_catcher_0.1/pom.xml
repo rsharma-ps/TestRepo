@@ -35,7 +35,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.rsharma_testrepo.joblet</groupId>
-      <artifactId>jlet_scb_dm_040_error_log</artifactId>
+      <artifactId>jlet_scb_error_log</artifactId>
       <version>0.1.0</version>
       <type>pom</type>
     </dependency>
