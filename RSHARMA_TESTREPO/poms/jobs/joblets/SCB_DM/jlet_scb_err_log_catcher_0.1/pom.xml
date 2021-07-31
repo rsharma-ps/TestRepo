@@ -9,10 +9,10 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.rsharma_testrepo.joblet</groupId>
-  <artifactId>jlet_scb_dm_030_err_log_catcher</artifactId>
+  <artifactId>jlet_scb_err_log_catcher</artifactId>
   <version>0.1.0</version>
   <packaging>pom</packaging>
-  <name>RSHARMA_TESTREPO jlet_scb_dm_030_err_log_catcher</name>
+  <name>RSHARMA_TESTREPO jlet_scb_err_log_catcher</name>
   <properties>
     <talend.joblet.id>_NutiwLx6EeuxlMrXquhX8g</talend.joblet.id>
     <talend.joblet.version>0.1</talend.joblet.version>
