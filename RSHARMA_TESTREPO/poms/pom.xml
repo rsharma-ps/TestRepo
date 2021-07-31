@@ -17,7 +17,6 @@
     <module>jobs/joblets/SCB_DM/jlet_scb_dm_030_err_log_catcher_0.1</module>
     <module>jobs/process/SCB_DM/SCB_SF_DATA_MASKING/National_ID/jb_scb_dm_000_master_national_id_0.1</module>
     <module>jobs/process/SCB_DM/SCB_SF_DATA_MASKING/National_ID/jb_scb_dm_010_national_id_0.1</module>
-    <module>jobs/joblets/SCB_DM/jlet_scb_dm_020_run_log_0.1</module>
     <module>jobs/joblets/SCB_DM/jlet_scb_dm_010_dm_contextload_0.1</module>
     <module>jobs/joblets/SCB_DM/jlet_scb_dm_040_error_log_0.1</module>
     <module>jobs/process/Mock2/poc_recdeditem_nonga_1jan_wti_0.1</module>
@@ -28,6 +27,7 @@
     <module>jobs/process/rs_samp_0.1</module>
     <module>jobs/process/rs_scb_sj_rl_copy_0.1</module>
     <module>jobs/joblets/SCB_DM/jlet_scb_dm_020_run_log_copy_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_run_log_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
