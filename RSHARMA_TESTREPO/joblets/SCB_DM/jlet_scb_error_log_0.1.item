@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" name="config_paramfile" prompt="config_paramfile?" promptNeeded="false" repositoryContextId="_b0EioNTeEeuRrqYmubmn_g" type="id_String" value="/apps/runtime/DATAMASKING/CONTEXT/parameterFile.txt"/>
+      <contextParameter comment="" name="sectionName" prompt="sectionName?" promptNeeded="false" repositoryContextId="_b0EioNTeEeuRrqYmubmn_g" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_DATA_API_URL" prompt="SCB_DM_SF_DATA_API_URL?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_LOOP_NUM" prompt="SCB_DM_SF_LOOP_NUM?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_ODATA_API_ENTITY" prompt="SCB_DM_SF_ODATA_API_ENTITY?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_ODATA_URL" prompt="SCB_DM_SF_ODATA_URL?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_PASSWORD" prompt="SCB_DM_SF_PASSWORD?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Password" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_PROXY_IP" prompt="SCB_DM_SF_PROXY_IP?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_PROXY_PORT" prompt="SCB_DM_SF_PROXY_PORT?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_REJECT_DATA_FILEPATH" prompt="SCB_DM_SF_REJECT_DATA_FILEPATH?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_REJECTED_RECORDS_RERUN_ENV" prompt="SCB_DM_SF_REJECTED_RECORDS_RERUN_ENV?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_RUN_TYPE" prompt="SCB_DM_SF_RUN_TYPE?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_TGT_DATA_FILEPATH" prompt="SCB_DM_SF_TGT_DATA_FILEPATH?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_USERNAME" prompt="SCB_DM_SF_USERNAME?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SF_ERRORLOG_FILE_NAME" prompt="SCB_SF_ERRORLOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SF_ERRORLOG_FILE_NAME_PREFIX" prompt="SCB_SF_ERRORLOG_FILE_NAME_PREFIX?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SF_ERRORLOG_FILE_PATH" prompt="SCB_SF_ERRORLOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SF_FILE_SIZE" prompt="SCB_SF_FILE_SIZE?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_Long" value=""/>
+      <contextParameter comment="" name="SCB_SF_MAX_FILE_NUM" prompt="SCB_SF_MAX_FILE_NUM?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_SF_OBJECT_ID" prompt="SCB_SF_OBJECT_ID?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SF_OBJECT_TYPE" prompt="SCB_SF_OBJECT_TYPE?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_ENVIRONMENT" prompt="SCB_ENVIRONMENT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_JOB_END_TIMESTAMP" prompt="SCB_JOB_END_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_JOB_START_TIMESTAMP" prompt="SCB_JOB_START_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_JOB_STATUS_FLAG" prompt="SCB_JOB_STATUS_FLAG?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_REJECT_RECORD_COUNT" prompt="SCB_REJECT_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_RUN_LOG_FILE_NAME" prompt="SCB_RUN_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_RUN_LOG_FILE_PATH" prompt="SCB_RUN_LOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_RUN_LOG_FILE_PREFIX" prompt="SCB_RUN_LOG_FILE_PREFIX?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SOURCE_RECORD_COUNT" prompt="SCB_SOURCE_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_TARGET_RECORD_COUNT" prompt="SCB_TARGET_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+    </context>
+    <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="96"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:GKB3ubmdzxUmCFMr1dXYM6ZEBEeyxBQmhD2g3OWv"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+      <routinesParameter id="_O7I90HWmEeuh3bPFECHkeA" name="DQTechnical"/>
+      <routinesParameter id="_O6v8QHWmEeuh3bPFECHkeA" name="DataMasking"/>
+      <routinesParameter id="_O49MgHWmEeuh3bPFECHkeA" name="DataOperation"/>
+      <routinesParameter id="_O7BpEHWmEeuh3bPFECHkeA" name="DataQualityDependencies"/>
+      <routinesParameter id="_O6-lwHWmEeuh3bPFECHkeA" name="DataQuality"/>
+      <routinesParameter id="_O7FTcHWmEeuh3bPFECHkeA" name="DqStringHandling"/>
+      <routinesParameter id="_O6Pl8HWmEeuh3bPFECHkeA" name="Mathematical"/>
+      <routinesParameter id="_O6TQUHWmEeuh3bPFECHkeA" name="Numeric"/>
+      <routinesParameter id="_O6W6sHWmEeuh3bPFECHkeA" name="Relational"/>
+      <routinesParameter id="_O6sR4HWmEeuh3bPFECHkeA" name="SQLike"/>
+      <routinesParameter id="_O6alEHWmEeuh3bPFECHkeA" name="StringHandling"/>
+      <routinesParameter id="_O6doYHWmEeuh3bPFECHkeA" name="TalendDataGenerator"/>
+      <routinesParameter id="_O6hSwHWmEeuh3bPFECHkeA" name="TalendDate"/>
+      <routinesParameter id="_O6ongHWmEeuh3bPFECHkeA" name="TalendStringUtil"/>
+      <routinesParameter id="_O6k9IHWmEeuh3bPFECHkeA" name="TalendString"/>
+    </parameters>
+    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+      <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_ZW-K8Lk7EeupPbDOSx8lEA-tMap_2-PREVIEW.bmp"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+      <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+      <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+      <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+      <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;AssignFixed"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Lnk_Invalid" name="Lnk_ErrorLog">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+      <nodeData xsi:type="TalendMapper:MapperData">
+        <uiProperties/>
+        <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+        <outputTables name="Lnk_ErrorLog" sizeState="INTERMEDIATE">
+          <mapperTableEntries expression="TalendDate.getDate(&quot;YYYY-MM-DD hh:mm:ss&quot;)&#9;" name="LOG_DATE_TIME" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="jobName" name="TALEND_JOB_NAME" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="StringHandling.EREPLACE(Lnk_Invalid.ERROR_DESCRIPTION,&quot;\n&quot;,&quot;,&quot;) " name="ERROR_DESCRIPTION" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Lnk_Invalid.SOURCE_INPUT_RECORD_ID" name="SOURCE_INPUT_RECORD_ID" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Lnk_Invalid.SF_OBJECT_TYPE" name="SF_OBJECT_TYPE" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Lnk_Invalid.SF_OBJECT_ID" name="SF_OBJECT_ID" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Lnk_Invalid.SF_FIELD_NAME" name="SF_FIELD_NAME" nullable="true" type="id_String"/>
+        </outputTables>
+        <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Lnk_Invalid" sizeState="INTERMEDIATE">
+          <mapperTableEntries name="ERROR_DESCRIPTION" nullable="true" type="id_String"/>
+          <mapperTableEntries name="SOURCE_INPUT_RECORD_ID" nullable="true" type="id_String"/>
+          <mapperTableEntries name="SF_OBJECT_TYPE" nullable="true" type="id_String"/>
+          <mapperTableEntries name="SF_OBJECT_ID" nullable="true" type="id_String"/>
+          <mapperTableEntries name="SF_FIELD_NAME" nullable="true" type="id_String"/>
+        </inputTables>
+      </nodeData>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashOutput_1"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="false"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.hash&quot;"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" show="false" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;ERR_Records"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Lnk_Invalid" name="tHashOutput_1">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+      <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.SCB_SF_ERRORLOG_FILE_PATH"/>
+      <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+      <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+      <elementParameter field="CHECK" name="ERROR" value="false"/>
+      <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+      <elementParameter field="TABLE" name="FILES">
+        <elementValue elementRef="FILEMASK" value="context.SCB_SF_ERRORLOG_FILE_NAME+&quot;*.log&quot;"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+      <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+      <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+      <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;LIST_ErrlogPath"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;##################################################################################################################&quot;);&#10;&#10;System.out.println(&quot;Error Log JOblet will run for Collected Error Records&quot;);&#10;&#10;context.SCB_SF_ERRORLOG_FILE_NAME=context.SCB_SF_ERRORLOG_FILE_NAME_PREFIX+TalendDate.getDate(&quot;DD-MMM-YYYY&quot;);&#10;&#10;&#10;System.out.println(&quot;##################################################################################################################&quot;);&#10;System.out.println(&quot;FILE NAME - &quot;+ context.SCB_SF_ERRORLOG_FILE_NAME);&#10;System.out.println(&quot;FILE PATH - &quot;+ context.SCB_SF_ERRORLOG_FILE_PATH);&#10;&#10;System.out.println(&quot;##################################################################################################################&quot;);"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;println"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_1"/>
+    </node>
+    <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_2"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_1"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.hash&quot;"/>
+      <elementParameter field="CHECK" name="RELEASE_CACHE" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;ERR_Records"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashInput_2">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+      <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+      <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+      <elementParameter field="FILE" name="FILENAME" value="context.SCB_SF_ERRORLOG_FILE_PATH+context.SCB_SF_ERRORLOG_FILE_NAME+&quot;_1.log&quot;"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+      <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+      <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+      <elementParameter field="CHECK" name="COMPRESS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="CHECK" name="CREATE" value="true"/>
+      <elementParameter field="CHECK" name="SPLIT" value="false"/>
+      <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+      <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+      <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+      <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+      <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="true"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;Err_log_File"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileOutputDelimited_1">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_2"/>
+      <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.SCB_SF_ERRORLOG_FILE_PATH"/>
+      <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+      <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+      <elementParameter field="CHECK" name="ERROR" value="false"/>
+      <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+      <elementParameter field="TABLE" name="FILES">
+        <elementValue elementRef="FILEMASK" value="context.SCB_SF_ERRORLOG_FILE_NAME+&quot;*.log&quot;"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+      <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+      <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+      <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;LIST_ErrlogPath"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tFileProperties" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileProperties_1"/>
+      <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+      <elementParameter field="CHECK" name="MD5" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;ErrFile"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileProperties_1">
+        <column defaultValue="" key="false" length="255" name="abs_path" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="dirname" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="basename" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="10" name="mode_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="size" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="mtime" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="mtime_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="32" name="md5" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+      <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_ZW-K8Lk7EeupPbDOSx8lEA-tMap_1-PREVIEW.bmp"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+      <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+      <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+      <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+      <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;FileProps"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="Lnk_Logs">
+        <column key="false" length="255" name="abs_path" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="dirname" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="basename" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="10" name="mode_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="size" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="mtime" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column key="false" length="20" name="mtime_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="32" name="md5" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="File_Num" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+      <nodeData xsi:type="TalendMapper:MapperData">
+        <uiProperties/>
+        <varTables name="Var" sizeState="INTERMEDIATE">
+          <mapperTableEntries expression="StringHandling.LEFT(StringHandling.RIGHT(Fil_Props.basename,5) ,1) " name="var1" type="id_String"/>
+        </varTables>
+        <outputTables activateExpressionFilter="true" name="Lnk_Logs" sizeState="INTERMEDIATE">
+          <mapperTableEntries expression="Fil_Props.abs_path" name="abs_path" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Fil_Props.dirname" name="dirname" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Fil_Props.basename" name="basename" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Fil_Props.mode_string" name="mode_string" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Fil_Props.size" name="size" nullable="true" type="id_Long"/>
+          <mapperTableEntries expression="Fil_Props.mtime" name="mtime" nullable="true" type="id_Long"/>
+          <mapperTableEntries expression="Fil_Props.mtime_string" name="mtime_string" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Fil_Props.md5" name="md5" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="Integer.valueOf(Var.var1 )" name="File_Num" nullable="true" type="id_Integer"/>
+        </outputTables>
+        <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Fil_Props" sizeState="INTERMEDIATE">
+          <mapperTableEntries name="abs_path" nullable="true" type="id_String"/>
+          <mapperTableEntries name="dirname" nullable="true" type="id_String"/>
+          <mapperTableEntries name="basename" nullable="true" type="id_String"/>
+          <mapperTableEntries name="mode_string" nullable="true" type="id_String"/>
+          <mapperTableEntries name="size" nullable="true" type="id_Long"/>
+          <mapperTableEntries name="mtime" nullable="true" type="id_Long"/>
+          <mapperTableEntries name="mtime_string" nullable="true" type="id_String"/>
+          <mapperTableEntries name="md5" nullable="true" type="id_String"/>
+        </inputTables>
+      </nodeData>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashOutput_2"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="false"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.hash&quot;"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" show="false" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;File_Properties"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashOutput_2">
+        <column key="false" length="255" name="abs_path" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="dirname" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="basename" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="10" name="mode_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="size" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="mtime" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column key="false" length="20" name="mtime_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="32" name="md5" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="File_Num" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="480">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;##################################################################################################################&quot;);&#10;&#10;System.out.println(&quot;Error Log Framework Finished Running&quot;);&#10;//global vars&#10;globalMap.put(&quot;returnCode&quot;, 1);&#10;&#10;if ( ((Integer)globalMap.get(&quot;tHashOutput_1_NB_LINE&quot;))&gt;0)&#10;&#10;{&#10;&#9;context.SCB_JOB_STATUS_FLAG=&quot;FAILED&quot;;&#10;}&#10;else&#10;{&#10;&#9;context.SCB_JOB_STATUS_FLAG=&quot;SUCCESSFULL&quot;;&#10;}&#10;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;println"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_2"/>
+    </node>
+    <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="480">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_1"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_2"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.hash&quot;"/>
+      <elementParameter field="CHECK" name="RELEASE_CACHE" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;File_Properties"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashInput_1">
+        <column key="false" length="255" name="abs_path" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="dirname" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="basename" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="10" name="mode_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="size" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="20" name="mtime" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column key="false" length="20" name="mtime_string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="32" name="md5" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="File_Num" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="480">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAggregateRow_1"/>
+      <elementParameter field="TABLE" name="GROUPBYS">
+        <elementValue elementRef="OUTPUT_COLUMN" value="size"/>
+        <elementValue elementRef="INPUT_COLUMN" value="size"/>
+      </elementParameter>
+      <elementParameter field="TABLE" name="OPERATIONS">
+        <elementValue elementRef="OUTPUT_COLUMN" value="MAX_FILE"/>
+        <elementValue elementRef="FUNCTION" value="max"/>
+        <elementValue elementRef="INPUT_COLUMN" value="File_Num"/>
+        <elementValue elementRef="IGNORE_NULL" value="false"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
+      <elementParameter field="CHECK" name="USE_FINANCIAL_PRECISION" value="true"/>
+      <elementParameter field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_ULP" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;GetMax"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tAggregateRow_1">
+        <column defaultValue="" key="false" length="20" name="size" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="MAX_FILE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="480">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#13;&#10;context.SCB_SF_FILE_SIZE = input_row.size;&#13;&#10;context.SCB_SF_MAX_FILE_NUM= input_row.MAX_FILE;&#13;&#10;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;AssignSize"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaRow_1">
+        <column defaultValue="" key="false" length="20" name="size" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="MAX_FILE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="640">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_3"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_1"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.hash&quot;"/>
+      <elementParameter field="CHECK" name="RELEASE_CACHE" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;ERR_Records"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashInput_3">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="640">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
+      <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+      <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+      <elementParameter field="FILE" name="FILENAME" value="context.SCB_SF_ERRORLOG_FILE_PATH+context.SCB_SF_ERRORLOG_FILE_NAME+&quot;_&quot;+context.SCB_SF_MAX_FILE_NUM +&quot;.log&quot;"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+      <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+      <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+      <elementParameter field="CHECK" name="APPEND" value="false"/>
+      <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+      <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="CHECK" name="CREATE" value="true"/>
+      <elementParameter field="CHECK" name="SPLIT" value="false"/>
+      <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+      <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+      <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+      <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+      <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;Err_log_File"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileOutputDelimited_2">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="480">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_4"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_1"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/ckumarbn/workspace/in.hash&quot;"/>
+      <elementParameter field="CHECK" name="RELEASE_CACHE" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;ERR_Records"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashInput_4">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="480">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_3"/>
+      <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+      <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+      <elementParameter field="FILE" name="FILENAME" value="context.SCB_SF_ERRORLOG_FILE_PATH+context.SCB_SF_ERRORLOG_FILE_NAME+&quot;_&quot;+context.SCB_SF_MAX_FILE_NUM+&quot;.log&quot;"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+      <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+      <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+      <elementParameter field="CHECK" name="COMPRESS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="CHECK" name="CREATE" value="true"/>
+      <elementParameter field="CHECK" name="SPLIT" value="false"/>
+      <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+      <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+      <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+      <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+      <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="true"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;Err_log_File"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileOutputDelimited_3">
+        <column comment="" key="false" length="-1" name="LOG_DATE_TIME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="TALEND_JOB_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="640" sizeX="128" sizeY="32">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="context.SCB_SF_MAX_FILE_NUM=context.SCB_SF_MAX_FILE_NUM+1;&#10;&#10;&#10;System.out.println(&quot;File Num is &quot;+context.SCB_SF_MAX_FILE_NUM);"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;SetFileNo"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_6"/>
+    </node>
+    <connection connectorName="FLOW" label="Lnk_Invalid" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tMap_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Lnk_Invalid"/>
+    </connection>
+    <connection connectorName="FLOW" label="Lnk_ErrorLog" lineStyle="0" metaname="Lnk_ErrorLog" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tHashOutput_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="TALEND_JOB_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="LOG_DATE_TIME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Lnk_ErrorLog"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tHashOutput_1" offsetLabelX="0" offsetLabelY="0" source="tHashOutput_1" target="tJava_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tHashOutput_1_NB_LINE&quot;))&gt;=1"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If_NoFileForToday" lineStyle="6" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileList_1" target="tHashInput_2">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tFileList_1_NB_FILE&quot;))&lt;1"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If_NoFileForToday"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="IF_FileForTodayExists" lineStyle="6" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="-6" outputId="2" source="tFileList_1" target="tFileList_2">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tFileList_1_NB_FILE&quot;))&gt;0"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="IF_FileForTodayExists"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFileList_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+    </connection>
+    <connection connectorName="FLOW" label="FirstFIle" lineStyle="0" metaname="tHashInput_2" offsetLabelX="0" offsetLabelY="0" source="tHashInput_2" target="tFileOutputDelimited_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="SF_OBJECT_TYPE"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SF_FIELD_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SOURCE_INPUT_RECORD_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="ERROR_DESCRIPTION"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="TALEND_JOB_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SF_OBJECT_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="LOG_DATE_TIME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="FirstFIle"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tJava_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+    </connection>
+    <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFileList_2" target="tFileProperties_1">
+      <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+      <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFileList_2" target="tHashInput_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+    </connection>
+    <connection connectorName="FLOW" label="Fil_Props" lineStyle="0" metaname="tFileProperties_1" offsetLabelX="0" offsetLabelY="0" source="tFileProperties_1" target="tMap_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Fil_Props"/>
+    </connection>
+    <connection connectorName="FLOW" label="Lnk_Logs" lineStyle="0" metaname="Lnk_Logs" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tHashOutput_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="File_Num"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Lnk_Logs"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="TRIGGER_OUTPUT_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk9"/>
+    </connection>
+    <connection connectorName="FLOW" label="LnkFileProps" lineStyle="0" metaname="tHashInput_1" offsetLabelX="0" offsetLabelY="0" source="tHashInput_1" target="tAggregateRow_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="mode_string"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="abs_path"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="basename"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="size"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="File_Num"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="mtime_string"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="mtime"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="dirname"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="md5"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="LnkFileProps"/>
+    </connection>
+    <connection connectorName="FLOW" label="LnkMaxFile" lineStyle="0" metaname="tAggregateRow_1" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_1" target="tJavaRow_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="MAX_FILE"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="size"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="LnkMaxFile"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="SizeGreater500" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJavaRow_1" target="tJava_6">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.SCB_SF_FILE_SIZE&gt;500000000"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="SizeGreater500"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="SizeLess500" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJavaRow_1" target="tHashInput_4">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.SCB_SF_FILE_SIZE&lt;500000000"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="SizeLess500"/>
+    </connection>
+    <connection connectorName="FLOW" label="NextNewFile" lineStyle="0" metaname="tHashInput_3" offsetLabelX="0" offsetLabelY="0" source="tHashInput_3" target="tFileOutputDelimited_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="SF_OBJECT_TYPE"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SF_FIELD_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SOURCE_INPUT_RECORD_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="ERROR_DESCRIPTION"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="TALEND_JOB_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SF_OBJECT_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="LOG_DATE_TIME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="NextNewFile"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_2" target="tJava_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk8"/>
+    </connection>
+    <connection connectorName="FLOW" label="ExistingFIle" lineStyle="0" metaname="tHashInput_4" offsetLabelX="0" offsetLabelY="0" source="tHashInput_4" target="tFileOutputDelimited_3">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="SF_OBJECT_TYPE"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SF_FIELD_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SOURCE_INPUT_RECORD_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="ERROR_DESCRIPTION"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="TALEND_JOB_NAME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="SF_OBJECT_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="LOG_DATE_TIME"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ExistingFIle"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_3" target="tJava_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk6"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_6" offsetLabelX="0" offsetLabelY="0" source="tJava_6" target="tHashInput_3">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk7"/>
+    </connection>
+    <note opaque="true" posX="544" posY="32" sizeHeight="129" sizeWidth="449" text="This Joblet is designed to capture error data as Input from main job &#13;&#10;using this joblet and store the log in a file on the Jobserver&#13;&#10;&#13;&#10;&gt; Joblet will create a new file Everyday.&#13;&#10;&gt; If the File Size crosses 500mb, a new file will be created to store the &#13;&#10;     error logs for the day">
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="225;225;135"/>
+    </note>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="INPUT_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="SOURCE_DATA"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="FILE CHECK"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_2"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="First File of the Day"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_2"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Extract File Properties"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Extract Size and Max Number"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_3"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Next File"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashInput_4"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Append Existing"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Increment File No"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="-64" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;InputData"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" label="Lnk_Invalid" name="INPUT_1">
+        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </jobletNodes>
+    <jobletNodes componentName="TRIGGER_OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="64" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0b98ff82-7e3d-4a14-a386-503d4f655ee5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GC+C8X1tFVhXDch1a5gpLkIR87alXUjgEHhUDEAvAozjUkbXw7LV1/QspCEDJpvFHxy5rQ8j8UOt
+gTjpq5P0WQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_20dd18dc-6d9d-45fd-8ab9-b89d2320f3b1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OKbI2Ti/g4mwk4NnRoRi7afipgtShtvVE9+CufxzoZxG86sF6vuE89fQaWBnfStzPseRy3flfWIX
+wd7TFAZGuQ==</DigestValue></Reference></SignedInfo><SignatureValue>hzhxHf6Ry4YsU7GNAEiImNijAqRo3iYcoSbQxcifPRdi9FEJXhENWmvb8Gjf/aAcT0Pf46UHpF0M
+UeJuNPWMji+NfBTbolqTglO4m9u9ObDSfFnZfWla4HzjP5tbMbbDXnqWwXbtAxTbol1Q5+ZjigR7
+e9STmRH4rP8yZji56AU8chIDCm7ZnYhHW/9Cgmyl7JtjTv78IpXOxjxSCwZNnF3prNE/s80qP/Fn
+aRBGbA36sjHoFk1/2RlavtLBVVLYOnZHByt9LmQN2QbYEbO3yKqyAyzRM7utyXMrOCdf4gaSKpkg
+hQSvnFso2ImPuJVB+RNPQ94SafFJbdXXu2CM6Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_20dd18dc-6d9d-45fd-8ab9-b89d2320f3b1" Target="#_0b98ff82-7e3d-4a14-a386-503d4f655ee5"><Timestamp>2021-07-31 15:02:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
