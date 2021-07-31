@@ -27,6 +27,7 @@
     <module>jobs/process/SCB_BP/rs_scb_sj_rl_0.1</module>
     <module>jobs/process/rs_samp_0.1</module>
     <module>jobs/process/rs_scb_sj_rl_copy_0.1</module>
+    <module>jobs/joblets/SCB_DM/jlet_scb_dm_020_run_log_copy_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
