@@ -10,16 +10,16 @@
     <contextParameter comment="" name="SCB_SF_MAX_FILE_NUM" prompt="SCB_SF_MAX_FILE_NUM?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_Integer" value=""/>
     <contextParameter comment="" name="SCB_SF_OBJECT_ID" prompt="SCB_SF_OBJECT_ID?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
     <contextParameter comment="" name="SCB_SF_OBJECT_TYPE" prompt="SCB_SF_OBJECT_TYPE?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_ENVIRONMENT" prompt="SCB_DM_SF_ENVIRONMENT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_JOB_END_TIMESTAMP" prompt="SCB_DM_SF_JOB_END_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_JOB_START_TIMESTAMP" prompt="SCB_DM_SF_JOB_START_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_JOB_STATUS_FLAG" prompt="SCB_DM_SF_JOB_STATUS_FLAG?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_REJECT_RECORD_COUNT" prompt="SCB_DM_SF_REJECT_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_NAME" prompt="SCB_DM_SF_RUN_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_PATH" prompt="SCB_DM_SF_RUN_LOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_RUN_LOG_FILE_PREFIX" prompt="SCB_DM_SF_RUN_LOG_FILE_PREFIX?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_SOURCE_RECORD_COUNT" prompt="SCB_DM_SF_SOURCE_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
-    <contextParameter comment="" name="SCB_DM_SF_TARGET_RECORD_COUNT" prompt="SCB_DM_SF_TARGET_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_ENVIRONMENT" prompt="SCB_ENVIRONMENT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_JOB_END_TIMESTAMP" prompt="SCB_JOB_END_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_JOB_START_TIMESTAMP" prompt="SCB_JOB_START_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_JOB_STATUS_FLAG" prompt="SCB_JOB_STATUS_FLAG?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_REJECT_RECORD_COUNT" prompt="SCB_REJECT_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_RUN_LOG_FILE_NAME" prompt="SCB_RUN_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_RUN_LOG_FILE_PATH" prompt="SCB_RUN_LOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_RUN_LOG_FILE_PREFIX" prompt="SCB_RUN_LOG_FILE_PREFIX?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+    <contextParameter comment="" name="SCB_SOURCE_RECORD_COUNT" prompt="SCB_SOURCE_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SCB_TARGET_RECORD_COUNT" prompt="SCB_TARGET_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -63,7 +63,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fFMgK8MdtTGC5MpHKQ49je4Kwsc1UN4kqAzD0OEJ"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:UXnRM7QiRQ1YdCtD3YeGYLVY0+0w9ysG9OHABEKo"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -98,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ew08LTT5qlsAgU/xIzwBbkNikG27ChmxJpqbxbHo"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:OHee+pULzxrlI5BS/wyW+6HSMo5FTZWymb/TYpVR"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -162,7 +162,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;############################################Core Job Started Running############################################&quot;);&#10;&#10;//Compulsory Context Variable to be set//&#10;//############################################################### Run Log ##########################################################&#10;&#10;context.SCB_DM_SF_JOB_START_TIMESTAMP=TalendDate.getDate(&quot;dd-MM-yyyy hh:mm:ss&quot;);&#10;context.SCB_DM_SF_JOB_END_TIMESTAMP=&quot;&quot;;&#10;context.SCB_DM_SF_JOB_STATUS_FLAG=&quot;STARTED&quot;;&#10;context.SCB_DM_SF_SOURCE_RECORD_COUNT=0;&#10;context.SCB_DM_SF_TARGET_RECORD_COUNT=0;&#10;context.SCB_DM_SF_REJECT_RECORD_COUNT=0;&#10;context.SCB_DM_SF_ENVIRONMENT=&quot;Sample env&quot;;&#10;&#10;&#10;//################################################################ Prints ##########################################################&#10;&#10;&#10;System.out.println(&quot;STATUS IS &quot;+context.SCB_DM_SF_JOB_STATUS_FLAG);&#10;System.out.println(&quot;SF ENVIRONMENT =&quot;+context.SCB_DM_SF_ENVIRONMENT);&#10;&#10;//###################################################################################################################################&#10;&#10;//Temp Variables set below to be removed when job development is completed//&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;############################################Core Job Started Running############################################&quot;);&#10;&#10;//Compulsory Context Variable to be set//&#10;//############################################################### Run Log ##########################################################&#10;&#10;context.SCB_JOB_START_TIMESTAMP=TalendDate.getDate(&quot;dd-MM-yyyy hh:mm:ss&quot;);&#10;context.SCB_JOB_END_TIMESTAMP=&quot;&quot;;&#10;context.SCB_JOB_STATUS_FLAG=&quot;STARTED&quot;;&#10;context.SCB_SOURCE_RECORD_COUNT=0;&#10;context.SCB_TARGET_RECORD_COUNT=0;&#10;context.SCB_REJECT_RECORD_COUNT=0;&#10;context.SCB_ENVIRONMENT=&quot;Sample env&quot;;&#10;&#10;&#10;//################################################################ Prints ##########################################################&#10;&#10;&#10;System.out.println(&quot;STATUS IS &quot;+context.SCB_JOB_STATUS_FLAG);&#10;System.out.println(&quot;SF ENVIRONMENT =&quot;+context.SCB_ENVIRONMENT);&#10;&#10;//###################################################################################################################################&#10;&#10;//Temp Variables set below to be removed when job development is completed//&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
@@ -218,13 +218,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_667325ad-c2d3-4d57-ad83-4da361a71fcc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VkYi9fnGPE9k7VrnPbaGkXVB9ERXjMhlN6ARAMoRN5mdD+/u7HHE6MiSMfnA0VwieN7J5Sbzkv6N
-qumLC9+44g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c187164a-b85d-4431-8795-8239330392f6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iOYVhmRFag28acTh/hT93YgqwZxuga2R2LOR99wwMv4z5OG/Zo9okNKjmaYFjJqGkJsV1I9OsMGb
-XNjR8myzaQ==</DigestValue></Reference></SignedInfo><SignatureValue>QHvqNS48kaICFBzCoDgH4rp2SSz5FroFrvc45IWgQXfTsac/YW38b7KiLqyqLYGe3A0D+UsODVVs
-vkcG9PVbpbUVXKnFw6FFG18yLinl454171YxgAc8O7hgehOLJ/jSItpOotRfPH5x65k2UiT0QlCV
-m5hr8rZM/bOphJ4jpE9JsUCDnHYShco9VVOsg59OV7zUN5GVTin73YhEcgIx5nL6AOsAFPN2Hak/
-w07kwiXIFTWX6wRyIRNENHROBBh5VgBG0fFmORYZDshHPtd9zNeeUNq3rPHwxyVX8276C76CkRio
-sgYDAu/HbOvc1dga8CNrUYUB+V0VdvKpcvk/HQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_85048d98-bb77-4353-9887-f89b2a4dbc86"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>m/fP8zyVIZMUN5jrnB81jceEN0z3xvelqGsJxu48stD2p6zehnVpQjMybULlR9sMOTA5LCpICk/9
+74NQH0/mZw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d29a84de-cf98-429e-ad35-db48ff0fade0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ynq8+hnND6dma19Vb66QkDqRU3oJHA2MW4qskI5XUa4d5eJcr70JgEZCVB+u6mdG07hrsXHuDFdO
+obEUmvnc3A==</DigestValue></Reference></SignedInfo><SignatureValue>Hfphe144JwEZ3BgY+iYZEHTs0Yh0SLMp8oxlZr/qu+H0sfVtkcph7/5ZxK41hYPs/fAbQflZFJFO
+Qc9vC8HTDxf81lEyHCLdBpOzyesnmF5RJm9BEqj8GByoV91zmA3kgiCdeLCcmWH7Bbk+nLowzsk4
+dgsUJelDBN4sMoDf/19sHsyzxCFvLsRmGYLxh69MReyNx+ZTvEAk+FiVs3Mkwk/xp2JmrSWXpssI
+zD+RhKlm5/ewzYHQoJDZ56d13ekm3FF/F+mVIQ0h4QfdXqZ7KNhrA151wY2FeU8TrC2AnYiSOiWo
+LWavnG1FXcTqYXTa4j1p0k/Blcu+WLhPhILLVA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -246,4 +246,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c187164a-b85d-4431-8795-8239330392f6" Target="#_667325ad-c2d3-4d57-ad83-4da361a71fcc"><Timestamp>2021-07-31 12:09:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d29a84de-cf98-429e-ad35-db48ff0fade0" Target="#_85048d98-bb77-4353-9887-f89b2a4dbc86"><Timestamp>2021-07-31 12:12:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
