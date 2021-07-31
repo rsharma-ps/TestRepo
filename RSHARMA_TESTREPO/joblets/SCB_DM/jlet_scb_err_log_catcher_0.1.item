@@ -8,6 +8,30 @@
       <contextParameter comment="" name="SCB_SF_OBJECT_ID" prompt="SCB_SF_OBJECT_ID?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
       <contextParameter comment="" name="SCB_SF_OBJECT_TYPE" prompt="SCB_SF_OBJECT_TYPE?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
       <contextParameter comment="" name="SCB_SF_ERRORLOG_FILE_NAME" prompt="SCB_SF_ERRORLOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_LI2NcLk9EeupPbDOSx8lEA" type="id_String" value=""/>
+      <contextParameter comment="" name="config_paramfile" prompt="config_paramfile?" promptNeeded="false" repositoryContextId="_b0EioNTeEeuRrqYmubmn_g" type="id_String" value="/apps/runtime/DATAMASKING/CONTEXT/parameterFile.txt"/>
+      <contextParameter comment="" name="sectionName" prompt="sectionName?" promptNeeded="false" repositoryContextId="_b0EioNTeEeuRrqYmubmn_g" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_DATA_API_URL" prompt="SCB_DM_SF_DATA_API_URL?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_LOOP_NUM" prompt="SCB_DM_SF_LOOP_NUM?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_ODATA_API_ENTITY" prompt="SCB_DM_SF_ODATA_API_ENTITY?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_ODATA_URL" prompt="SCB_DM_SF_ODATA_URL?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_PASSWORD" prompt="SCB_DM_SF_PASSWORD?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Password" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_PROXY_IP" prompt="SCB_DM_SF_PROXY_IP?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_PROXY_PORT" prompt="SCB_DM_SF_PROXY_PORT?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_REJECT_DATA_FILEPATH" prompt="SCB_DM_SF_REJECT_DATA_FILEPATH?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_REJECTED_RECORDS_RERUN_ENV" prompt="SCB_DM_SF_REJECTED_RECORDS_RERUN_ENV?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_RUN_TYPE" prompt="SCB_DM_SF_RUN_TYPE?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_TGT_DATA_FILEPATH" prompt="SCB_DM_SF_TGT_DATA_FILEPATH?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_DM_SF_USERNAME" prompt="SCB_DM_SF_USERNAME?" promptNeeded="false" repositoryContextId="_o-sCgM87Eeumw6wknAK2Yg" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_ENVIRONMENT" prompt="SCB_ENVIRONMENT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_JOB_END_TIMESTAMP" prompt="SCB_JOB_END_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_JOB_START_TIMESTAMP" prompt="SCB_JOB_START_TIMESTAMP?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_JOB_STATUS_FLAG" prompt="SCB_JOB_STATUS_FLAG?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_REJECT_RECORD_COUNT" prompt="SCB_REJECT_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_RUN_LOG_FILE_NAME" prompt="SCB_RUN_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_RUN_LOG_FILE_PATH" prompt="SCB_RUN_LOG_FILE_PATH?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_RUN_LOG_FILE_PREFIX" prompt="SCB_RUN_LOG_FILE_PREFIX?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_String" value=""/>
+      <contextParameter comment="" name="SCB_SOURCE_RECORD_COUNT" prompt="SCB_SOURCE_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
+      <contextParameter comment="" name="SCB_TARGET_RECORD_COUNT" prompt="SCB_TARGET_RECORD_COUNT?" promptNeeded="false" repositoryContextId="_Z9bgYLofEeuo45Qe_PgcEA" type="id_Integer" value=""/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -53,7 +77,7 @@
       <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:nKeUlBLnqFhpmiGoHssoi23m80PCYqQkn8iaBqfM"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:F5SZ95CTswaVAhZPFVc7YuZbtCZvwwvDXxjyVxJH"/>
       <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -194,43 +218,7 @@
         <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="480">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-      <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-      <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
-      <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-      <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
-      <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
-      <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
-      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
-      <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
-      <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
-      <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
-      <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
-      <elementParameter field="TABLE" name="LENGTHS" show="false">
-        <elementValue elementRef="SCHEMA_COLUMN" value="ERROR_DESCRIPTION"/>
-        <elementValue elementRef="LENGTH" value="10"/>
-        <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_INPUT_RECORD_ID"/>
-        <elementValue elementRef="LENGTH" value="10"/>
-        <elementValue elementRef="SCHEMA_COLUMN" value="SF_OBJECT_TYPE"/>
-        <elementValue elementRef="LENGTH" value="10"/>
-        <elementValue elementRef="SCHEMA_COLUMN" value="SF_OBJECT_ID"/>
-        <elementValue elementRef="LENGTH" value="10"/>
-        <elementValue elementRef="SCHEMA_COLUMN" value="SF_FIELD_NAME"/>
-        <elementValue elementRef="LENGTH" value="10"/>
-      </elementParameter>
-      <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-      <metadata connector="FLOW" label="LnkPRINT" name="tLogRow_1">
-        <column comment="" key="false" length="-1" name="ERROR_DESCRIPTION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-        <column comment="" key="false" length="-1" name="SOURCE_INPUT_RECORD_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-        <column comment="" key="false" length="-1" name="SF_OBJECT_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-        <column comment="" key="false" length="-1" name="SF_OBJECT_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-        <column comment="" key="false" length="-1" name="SF_FIELD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      </metadata>
-    </node>
-    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="608">
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="352">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
       <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;########################################################## Error Log Cathcer Triggered########################################################&quot;);&#10;&#10;&#10;context.SCB_JOB_STATUS_FLAG =&quot;FAILED&quot;;&#10;"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -241,13 +229,9 @@
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
     </connection>
-    <connection connectorName="FLOW" label="Err" lineStyle="0" metaname="Err" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="jlet_scb_dm_040_error_log_1">
+    <connection connectorName="FLOW" label="Err" lineStyle="0" metaname="Err" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="jlet_scb_dm_040_error_log_1">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Err"/>
-    </connection>
-    <connection connectorName="FLOW" label="LnkPRINT" lineStyle="0" metaname="LnkPRINT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tLogRow_1">
-      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="LnkPRINT"/>
     </connection>
     <connection connectorName="COMPONENT_OK" label="OnComponentOk (TRIGGER_OUTPUT_1)" lineStyle="3" metaname="jlet_scb_dm_040_error_log_1" offsetLabelX="0" offsetLabelY="0" source="jlet_scb_dm_040_error_log_1" target="tJava_1">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -264,13 +248,13 @@
     </subjob>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1df83b0d-b150-4848-ad0b-ee8fc4ea86b2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3Wu4eZrKVvUruGq6hNieyoMz4K63kT0Vm9sf+j+svhKSgQe6Pc7f4/ntc3h7f5vzt6zkL/HTZNnC
-9b4xYQfW7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ce321b80-8d99-427d-b459-41b519831eac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uCIvsA1EwTC/6/8gkiOGAFOByXIaZkcflsJXTfkLNkqBTA83tXsawIFJyV1MQbyKQn2s+U6j0HVa
-xOTiAoeLnw==</DigestValue></Reference></SignedInfo><SignatureValue>ooQqdANzL0hgFirWjH9j74DUyHpQxg37WDj4BVOlK7lS2wlDqlFi2csV3H+Hvo8PxEG20dsFgZ6r
-pQYiEEdObC6PuAeBJ34ZDqOv8u4mh0B+hGF8TgGrJwneZPnYS/JYLJ/OtAlka9+P/4EfAjxwPk+M
-HjVFQzcTubJcYB54x6A6aTVlMoXk6GCp6C4aXYtshZA5tHczmVFjn0NqR8NZF7kOF/R372UStFaU
-ipak5JrI2fPdUfCd2YOfmMfIjPpphOT3nSDzv8FYP6QqUPkZY3ApAXPGF3XnWFyccQ1Fu5pWyeay
-ZfykQooT37RgFwmqRzrJMKyz7SFVk04Xvh/yCA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a83ba887-ca05-4be6-ad49-c877516b20de"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FWp53rnl31bLFQqLvTN5sGrkIOjq0jzNHX4lVCTH8yP1bP9vMhO7/02dkXsB4PdDDIJ6vcG50E0O
+w4mlnvd8xQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_01434e4f-818b-4b15-a62f-b776c166eb06"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>39QwuzvbTQF/yrMhrbWhKSUrT9/Ur5+/GTuPdHkiGSBUf5ZC1ddqz1uI8DKDJYnL55xZXKq2asJm
+9OypdONQNg==</DigestValue></Reference></SignedInfo><SignatureValue>eO38e89jFbO5/tHOmYjFkWIn+WfZKf6NXl/XzCxJFXJntJy+0oGOiVMnTb7REJN91V3B0VkpB9Ph
+BopBJTAyq51Dpf2mFTWNh8rRjq1AOF2cSI+ToU64mVwET6fhpYkxjSHarXEyM1N08DlCYnsXoUxu
+h0N96JhQ/vccC3GOEqmzAEccaf3iZdhopADX5cPkx2Anaru6bEAOrYEtEdGN2MSfar+c7ozaOhS5
+3Ei8FSbx67rKHg3KZSth9z9BzSi1QWFZorzuo7GvfXQOTEeoe4eNM43wEwRC1Mr8Xwegz6LgUBr9
+iOwzT6R0QsdF/yvrGxpIlAM3Nml1wc1TmKgJEg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -292,4 +276,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ce321b80-8d99-427d-b459-41b519831eac" Target="#_1df83b0d-b150-4848-ad0b-ee8fc4ea86b2"><Timestamp>2021-07-31 14:45:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_01434e4f-818b-4b15-a62f-b776c166eb06" Target="#_a83ba887-ca05-4be6-ad49-c877516b20de"><Timestamp>2021-07-31 14:50:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
